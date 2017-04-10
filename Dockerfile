@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-ENV GOACCESS_VERSION=1.1.1
+ENV GOACCESS_VERSION=1.2
 
 RUN apk add --no-cache build-base wget ncurses-dev && \
     mkdir /tmp/goaccess && \
